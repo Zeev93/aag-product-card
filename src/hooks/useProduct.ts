@@ -5,7 +5,7 @@ interface useProductArgs {
     product: Product,
     onChange?: ( args:onChangeArgs ) => void
     value?: number
-    initialValues: InitialValues
+    initialValues?: InitialValues
 }
 
 
